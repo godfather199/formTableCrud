@@ -9,8 +9,8 @@ function Table() {
   useEffect(() => {
     const fetchUsers = async () => {
       try {
-        // const res = await axios.get("http://localhost:5000/api/user");
         const res = await axios.get("https://formtablecrudapi.onrender.com/api/user");
+        // const res = await axios.get("https://formtablecrudapi.onrender.com/api/user");
         setUsers(res.data);
       } catch (err) {
         console.log(err);

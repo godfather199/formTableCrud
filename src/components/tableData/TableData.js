@@ -8,7 +8,7 @@ function TableData({ user }) {
 
   const handleDelete = async () => {
     try {
-      await axios.delete('http://localhost:5000/api/user/' + user._id)
+      await axios.delete('https://formtablecrudapi.onrender.com/api/user/' + user._id)
 
       window.location.reload()
     }

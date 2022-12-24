@@ -20,7 +20,7 @@ function Form({ user, updateMode, setUpdateMode }) {
 
     try {
       const res = await axios.post(
-        "http://localhost:5000/api/user/register",
+        "https://formtablecrudapi.onrender.com/api/user/register",
         newUser
       );
 
@@ -41,7 +41,7 @@ function Form({ user, updateMode, setUpdateMode }) {
 
     try {
       const res = await axios.put(
-        "http://localhost:5000/api/user/" + user._id,
+        "https://formtablecrudapi.onrender.com/api/user/" + user._id,
         updatedUser
       );
 
