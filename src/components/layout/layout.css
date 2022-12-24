@@ -1,0 +1,17 @@
+
+
+.layoutDetails {
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.layoutForm {
+    padding: 20px;
+}
+
+.layoutTable {
+    /* border: 5px solid green; */
+    
+}

@@ -1,0 +1,55 @@
+.tdContainer {
+    /* border: 1px solid black; */
+    background-color: orangered;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    height: 340px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px -6px black;
+}
+
+.tdWrapper {
+    /* border: 3px solid black; */
+    width: 90%;
+    height: 95%;
+}
+
+.tdList {
+    /* border: 3px solid red; */
+    margin: 20px 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.tdListItem {
+    /* border: 3px solid orange; */
+    padding: 7px;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+
+.tdListBtn {
+    /* border: 3px solid purple; */
+    
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tdBtn {
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    width: 110px;
+    height: 40px;
+    border-radius: 6px;
+    outline: none;
+}
